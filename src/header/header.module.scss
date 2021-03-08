@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .headerLeft {
+    // border: 1px solid red;
+    display: flex;
+
+    border-bottom: 1px solid whitesmoke;
+    img {
+      object-fit: contain;
+      // border: 1px solid red;
+      width: 180px;
+      height: 100px;
+    }
+  }
+  .headerMiddle {
+    display: flex;
+    align-items: center;
+    flex: 0.7;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: whitesmoke;
+    // border: 1px solid red;
+    input {
+      width: 100%;
+      border: none;
+      padding: 10px;
+      font-size: medium;
+      background-color: transparent;
+    }
+  }
+  .headerRight {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    flex: 0.1;
+    //border: 1px solid red;
+  }
+} //
